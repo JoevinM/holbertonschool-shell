@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | grep '^d' > count | wc -l count
+ls -d */ |  wc -l count
