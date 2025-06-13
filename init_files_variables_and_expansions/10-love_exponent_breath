@@ -1,2 +1,2 @@
 #!/bin/bash
-touch $((BREATH**LOVE))
+touch $(($BREATH**$LOVE))
