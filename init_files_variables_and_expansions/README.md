@@ -1,74 +1,82 @@
-# 0. <o>
+# 🐚 Shell Scripts - Environment & Variables
 
-a script that prints hello user, where user is the current Linux user.
+Scripts covering environment variables, PATH manipulation, arithmetic operations, and string combinations.
 
-# 1. Hello you
+---
 
-Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
+## 🔧 Scripts Overview
 
-# 2. The path to success is to take massive, determined action
+### 🔹 0. Hello User
+- **Goal:** Print "hello user", where `user` is the current Linux user.
 
-a script that counts the number of directories in the PATH.
+---
 
-# 3. If the path be beautiful, let us not ask where it leads
+### 🔹 1. Hello You
+- **Goal:** Add `/action` to the `PATH`. `/action` should be the last directory searched by the shell.
 
-a script that lists environment variables.
+---
 
-# 4. Global variables
+### 🔹 2. Count PATH Directories
+- **Goal:** Count the number of directories in the `PATH` environment variable.
 
-a script that lists all local variables and environment variables, and functions.
+---
 
-# 5. Local variables
+### 🔹 3. List Environment Variables
+- **Goal:** List all environment variables.
 
-a script that creates a new local variable.
+---
 
-# 6. Local variable
+### 🔹 4. Global Variables
+- **Goal:** List all local variables, environment variables, and functions.
 
-a script that creates a new global variable.
+---
 
+### 🔹 5. Local Variables
+- **Goal:** Create a new local variable.
 
-# 7. Global variable
+---
 
-a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+### 🔹 6. Global Variable
+- **Goal:** Create a new global variable.
 
-# 8. Every addition to true knowledge is an addition to human power
+---
 
-a script that prints the result of POWER divided by DIVIDE, followed by a new line.
+### 🔹 7. Add to Environment Variable
+- **Goal:** Print the result of `128 + $TRUEKNOWLEDGE`, followed by a newline.
 
-# 9. Divide and rule
+---
 
-a script that displays the result of BREATH to the power LOVE
+### 🔹 8. Division Operation
+- **Goal:** Print the result of `$POWER` divided by `$DIVIDE`, followed by a newline.
 
-# 10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath
+---
 
-a script that converts a number from base 2 to base 10.
+### 🔹 9. Exponentiation
+- **Goal:** Display the result of `$BREATH` to the power of `$LOVE`.
 
-The number in base 2 is stored in the environment variable BINARY
-The script should display the number in base 10, followed by a new line
+---
 
-# 11. There are 10 types of people in the world -- Those who understand binary, and those who don't
+### 🔹 10. Base 2 to Base 10 Conversion
+- **Goal:** Convert a binary number stored in environment variable `BINARY` to base 10 and print it.
 
-a script that prints all possible combinations of two letters, except oo.
+---
 
-# 12. Combination
+### 🔹 11. Combination (First)
+- **Goal:** Print all possible combinations of two lowercase letters (a–z), except "oo".
 
- a script that prints all possible combinations of two letters, except oo.
+---
 
-Letters are lower cases, from a to z
-One combination per line
-The output should be alpha ordered, starting with aa
-Do not print oo
-Your script file should contain maximum 64 characters
+### 🔹 12. Combination (Short Script)
+- **Goal:** Same as above but script should be at most 64 characters long.
 
-# 13. Floats
+---
 
-a script that prints a number with two decimal places, followed by a new line.
+### 🔹 13. Float Printing
+- **Goal:** Print a number stored in `NUM` with two decimal places.
 
-The number will be stored in the environment variable NUM.
+---
 
-# 14. Decimal to Hexadecimal
+### 🔹 14. Decimal to Hexadecimal
+- **Goal:** Convert a decimal number stored in `DECIMAL` to hexadecimal and print it.
 
-a script that converts a number from base 10 to base 16.
-
-The number in base 10 is stored in the environment variable DECIMAL
-The script should display the number in base 16, followed by a new line
+---
