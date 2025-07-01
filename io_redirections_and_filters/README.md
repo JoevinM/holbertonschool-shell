@@ -1,92 +1,122 @@
-# 0. Hello World
+# 🐚 Shell Scripts - Basic Commands & File Manipulations
 
-a script that prints "Hello, Word" , followed by a new line to the standard output.
+Collection of beginner shell scripts to print messages, manipulate files, and perform common directory and text operations.
 
-# 1. Confused smiley
+---
 
-a script that displays a confused smiley "(Ôo)'.
+## 🔧 Scripts Overview
 
-# 2. Let's display a file
+### 🔹 0. Hello World
+- **Goal:** Print `"Hello, World"`, followed by a newline.
 
-Display the content of the /etc/passwd file.
+---
 
-# 3. What about 2?
+### 🔹 1. Confused Smiley
+- **Goal:** Display a confused smiley: `(Ôo)`.
 
-Display the content of /etc/passwd and /etc/hosts
+---
 
-# 4. Last lines of a file
+### 🔹 2. Display a File
+- **Goal:** Display the content of `/etc/passwd`.
 
-Display the last 10 lines of /etc/passwd
+---
 
-# 5. I'd prefer the first ones actually
+### 🔹 3. Display Two Files
+- **Goal:** Display the contents of `/etc/passwd` and `/etc/hosts`.
 
-Display the first 10 lines of /etc/passwd
+---
 
-# 6. Line #2
+### 🔹 4. Last Lines of a File
+- **Goal:** Display the last 10 lines of `/etc/passwd`.
 
-a script that displays the third line of the file iacta
+---
 
-# 7. It is a good file that cuts iron without making a noise
+### 🔹 5. First Lines of a File
+- **Goal:** Display the first 10 lines of `/etc/passwd`.
 
-a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+---
 
-# 8. Save current state of directory
+### 🔹 6. Line #3 of a File
+- **Goal:** Display the third line of the file named `iacta`.
 
-a script that writes into the file ls_cwd_content the result of the command ls -la
+---
 
-# 9. Duplicate last line
+### 🔹 7. Create a Special File
+- **Goal:** Create a file named exactly `*\'"Best School"'\*$?*****:)` containing the text `Best School` followed by a newline.
 
-a script that duplicates the last line of the file iacta
+---
 
-# 10. No more javascript
+### 🔹 8. Save Directory State
+- **Goal:** Save the output of `ls -la` in a file called `ls_cwd_content`.
 
-a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders
+---
 
-# 11. Don't just count your directories, make your directories count
+### 🔹 9. Duplicate Last Line
+- **Goal:** Duplicate the last line of the file `iacta`.
 
-a script that counts the number of directories and sub-directories in the current directory.
+---
 
-# 12. What's new
+### 🔹 10. Delete .js Files
+- **Goal:** Delete all regular files with `.js` extension in current directory and all subdirectories.
 
-a script that displays the 10 newest files in the current directory.
+---
 
-# 13. Being unique is better than being perfect
+### 🔹 11. Count Directories
+- **Goal:** Count all directories and subdirectories in the current directory.
 
-a script that takes a list of words as input and prints only words that appear exactly once.
+---
 
-# 14. It must be in that file
+### 🔹 12. Newest Files
+- **Goal:** Display the 10 newest files in the current directory.
 
-Display lines containing the pattern "root" from the file /etc/passwd
+---
 
-# 15. Count that word
+### 🔹 13. Unique Words
+- **Goal:** Given a list of words, print only those that appear exactly once.
 
-Display the number of lines that contain the pattern "bin" in the file /etc/passwd
+---
 
-# 16. What's next?
+### 🔹 14. Lines Containing "root"
+- **Goal:** Display lines containing `"root"` from `/etc/passwd`.
 
-Display lines containing the pattern "root" and 3 lines after them in the file /etc/passwd.
+---
 
-# 17. I hate bins
+### 🔹 15. Count Lines Containing "bin"
+- **Goal:** Count lines containing `"bin"` in `/etc/passwd`.
 
-Display all the lines in the file /etc/passwd that do not contain the pattern "bin".
+---
 
-# 18. Letters only please
+### 🔹 16. Lines Around "root"
+- **Goal:** Display lines containing `"root"` plus 3 lines after them in `/etc/passwd`.
 
-Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+---
 
-# 19. A to Z
+### 🔹 17. Lines Without "bin"
+- **Goal:** Display lines in `/etc/passwd` that do *not* contain `"bin"`.
 
-Replace all characters A and c from input to Z and e respectively.
+---
 
-# 20. Without C, you would live in hiago
+### 🔹 18. Lines Starting with Letter
+- **Goal:** Display lines of `/etc/ssh/sshd_config` starting with a letter.
 
-a script that removes all letters c and C from input.
+---
 
-# 21. esreveR
+### 🔹 19. Replace Characters
+- **Goal:** Replace all `A` with `Z` and `c` with `e` in input.
 
-a script that reverse its input
+---
 
-# 22. DJ Cut Killer
+### 🔹 20. Remove Letters 'c' and 'C'
+- **Goal:** Remove all `c` and `C` characters from input.
 
-a script that displays all users and their home directories, sorted by users
+---
 
+### 🔹 21. Reverse Input
+- **Goal:** Reverse the input string.
+
+---
+
+### 🔹 22. List Users & Home Directories
+- **Goal:** Display all users and their home directories, sorted by username.
+
+---
