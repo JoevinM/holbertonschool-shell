@@ -1,71 +1,97 @@
-#0-current_working_directory :
+# 🐚 Shell Scripts - Basic File and Directory Operations
 
-This script display the current working directory.
+A series of shell scripts demonstrating file system navigation, file and directory manipulation.
 
-#1-listit :
+---
 
-This script list the content of current directory.
+## 🔧 Scripts Overview
 
-#2-bring_me_home :
+### 🔹 0. current_working_directory
+- **Goal:** Display the current working directory.
 
-This script change the working directory to the user's home directory.
+---
 
-#3-listfiles :
+### 🔹 1. listit
+- **Goal:** List the contents of the current directory.
 
-This script display the current directory contents in a long format.
+---
 
-#4-listmorefiles :
+### 🔹 2. bring_me_home
+- **Goal:** Change the working directory to the user's home directory.
 
-This script display current directory contents, including hidden files and use the long format.
+---
 
-#5-listfilesdigitonly :
+### 🔹 3. listfiles
+- **Goal:** Display the current directory contents in long format.
 
-This script display current directory contents with : long format, user and group IDs, hidden files.
+---
 
-#6-firstdirectory :
+### 🔹 4. listmorefiles
+- **Goal:** Display current directory contents, including hidden files, in long format.
 
-This script creates a directory name "my_first_directory" in the /tmp/ directory.
+---
 
-#7-movethatfile :
+### 🔹 5. listfilesdigitonly
+- **Goal:** Display current directory contents with long format, user and group IDs, including hidden files.
 
-This script move the file "betty" from /tmp/ to /tmp/my_first_directory.
+---
 
-#8-firstdelete :
+### 🔹 6. firstdirectory
+- **Goal:** Create a directory named `my_first_directory` in the `/tmp/` directory.
 
-This script delete the file "betty".
+---
 
-#9-firstdirdeletion :
+### 🔹 7. movethatfile
+- **Goal:** Move the file `betty` from `/tmp/` to `/tmp/my_first_directory`.
 
-This script Delete the directory "my_first_directory" that is in the /tmp directory..
+---
 
-#10-back :
+### 🔹 8. firstdelete
+- **Goal:** Delete the file `betty`.
 
-This script Write a script that changes the working directory to the previous one.
+---
 
-#11-lists :
+### 🔹 9. firstdirdeletion
+- **Goal:** Delete the directory `my_first_directory` in `/tmp/`.
 
-Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+---
 
-#12-file_type :
+### 🔹 10. back
+- **Goal:** Change the working directory to the previous one.
 
-Write a script that prints the type of the file named "iamafile". The file "iamafile" will be in the /tmp directory when we will run your script.
+---
 
-#13-symbolic_link :
+### 🔹 11. lists
+- **Goal:** List all files (including hidden ones) in the current directory, the parent directory, and the `/boot` directory, in that order, using long format.
 
-Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
+---
 
-#14-copy_html :
+### 🔹 12. file_type
+- **Goal:** Print the type of the file named `iamafile` located in `/tmp/`.
 
-Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+---
 
-#15-lets_move :
+### 🔹 13. symbolic_link
+- **Goal:** Create a symbolic link named `ls` to `/bin/ls` in the current working directory.
 
-Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+---
 
-#16-clean_emacs :
+### 🔹 14. copy_html
+- **Goal:** Copy all HTML files from the current directory to the parent directory, but only if they do not exist there or are newer than the existing versions.
 
-Create a script that deletes all files in the current working directory that end with the character ~.
+---
 
-#17-tree :
+### 🔹 15. lets_move
+- **Goal:** Move all files beginning with an uppercase letter to the directory `/tmp/u`.
 
-Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+---
+
+### 🔹 16. clean_emacs
+- **Goal:** Delete all files in the current directory that end with the character `~`.
+
+---
+
+### 🔹 17. tree
+- **Goal:** Create the directories `welcome/`, `welcome/to/`, and `welcome/to/school` in the current directory.
+
+---
